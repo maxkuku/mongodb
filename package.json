@@ -1,0 +1,27 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "for mongo db lesson GB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build",
+    "start": "node index.js",
+    "start:prod": "node dist/main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxkuku/mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxkuku/mongodb/issues"
+  },
+  "homepage": "https://github.com/maxkuku/mongodb#readme",
+  "dependencies": {
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.8.0"
+  }
+}
